@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/styles.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        <link rel="stylesheet" href="style/pop-up.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+        <!--owl css-->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+        <title>NETFLIX</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="container" id="menu">
+                
+                <div class="logo">
+                    <img src="img/logo-netflix2-removebg-preview.png" style="height: 65px;">
+                </div>
+
+                <nav>    
+                    <a href="#">Início</a>
+                    <a href="#">Série</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Bombando</a>
+                    <a href="#">Minha lista</a>
+                </nav>
+
+                <div class="icon-menu"> 
+                    <a><i class="fas fa-search"></i></a>
+                    <a><i class="fas fa-bell"></i></a>
+                    <a><i class="fas fa-square"></i></a>
+                </div> 
+            </div>
+        </header>
+
+        <main>
+            <div class="filme-principal">
+                <div class="container-titulo">
+                    <h1 class="titulo">Grey's Anatomy</h1>
+                    <p class="descricao">Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e consequências de vida ou morte. É um no outro que eles encontram apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos, eles descobrem o quanto a vida profissional e a pessoal podem ser complicadas e se misturarem no meio do caminho.</p>
+                </div>
+                <div class="">
+                    <button role="button" id="botaoUm" class="botao" style="margin-left: 25px; margin-right: 5px; background-color: white; color: black;">
+                        <i class="fas fa-play"></i>
+                        Assistir
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>
+            </div>           
+        </main>
+
+        <div class="popup-wrapper"> <!--Div q escurece o resto da pagina-->
+            <div class="popup">
+                <div class="popup-close">X</div>
+                <div class="popup-content"> 
+                    <img class="img-poup" src="img/img-greys.jpg" style="width: 100%; height: 80%;">   
+                </div>
+                <div class="nomeGreys">
+                    <img src="img/nomeGreysBranco.png" style="width: 50%">
+                </div>
+                <div class="main-one">
+                    <button role="button" id="botaoPopup" class="botao" style="margin-left: 40px; margin-right: 5px; background-color: white; color: black;">
+                        <i class="fas fa-play"></i>
+                        Assistir
+                    </button>
+                        <i class="fas fa-plus-circle"></i>
+                        <i class="fas fa-thumbs-up"></i>
+                        <i class="fas fa-thumbs-down"></i>
+                </div>
+                <div class="conteudo-popup">
+                   <span class="relevancia">98% relevante</span>
+                    <nav>
+                        <span class="year">2005</span>
+                        <span id="classificacao-indicativa">14</span>
+                        <span>1 Temporada</span>
+                    </nav>  
+                    <p>Durante sua residência, Meredith Grey vive paixões profissionais e
+                     pessoais com seus colegas médicos em um hospital de Seattle.</p>
+                
+                    <div class="lista-episodios">
+                       <span>Episodios</span>
+                       <button>Temporada<i class="fas fa-sort-down"></i></button>
+                    </div>
+
+                    <div class="cards-filmes">
+                        <div class="secao-filme">
+                            <div class="teste">1</div>
+                            <div class="info-cards">
+                                <span>Meu mundo caiu</span>
+                            </div>
+                            <iframe width="150" height="100" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>  
+                        </div>
+
+                        <div class="secao-filme">
+                            <div class="teste">2</div>
+                            <div class="info-cards">
+                                <span>De cabeça erguida</span>
+                            </div>
+                            <iframe width="150" height="100" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>  
+                        </div>
+                       
+
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        
+
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item" id="btn-popup">
+                    <img class="box-filme" src="img/img8.jpg">
+                </div>
+                <div class="item" id="btn-popupD">
+                    <img class="box-filme" src="img/img4.jpg">
+                </div>
+                <div class="item" id="btn-popupT">
+                    <img class="box-filme" src="img/img7.jpg">
+                </div>
+                <div class="item" id="btn-popupQ">
+                    <img class="box-filme" src="img/img1.jpg">
+                </div>
+                <div class="item" id="btn-popupC">
+                    <img class="box-filme" src="img/img5.jpg">
+                </div>
+                <div class="item" id="btn-popupS">
+                    <img class="box-filme" src="img/img6.jpg">
+                </div>
+                <div class="item" id="btn-popupST">
+                    <img class="box-filme" src="img/img3.jpg">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img2.jpg">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img9.jpg">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img10.jpg">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img11.jpg">
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="popup-wrapperD"> <!--Div q escurece o resto da pagina-->
+            <div class="popupD">
+                <div class="popup-closeD">X</div>
+                <div class="popup-contentD"> 
+                    <p>Músicas do seriado Rick and Morty</p>
+                    <a href="#"> Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+                    
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
+        <script src="js/owl/scroll.js"></script>
+        <script src="js/owl/pop-up.js"></script>
+
+
+
+
+    </body>
+</html>

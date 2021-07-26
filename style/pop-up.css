@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+.popup-wrapper{
+    display: none; /*não vai ser exibido, fazer com que seja exibido dps de clicar no botao */
+    background: rgba(0 ,0, 0, .5);
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup{
+    max-width: 55%;
+    margin: 3% auto;
+    position: relative;
+    box-shadow: rgb(0 0 0 / 75%) 0px 3px 10px;
+    border-radius: 6px;
+    background-color: #181818;
+}
+
+.popup .conteudo-popup{
+    padding: 0 3em;
+    margin-right: .5em; 
+}
+
+.popup .relevancia{
+    font-weight: 700;
+    color: #46d369;
+} 
+
+nav span{
+    color: #fff;
+    margin-right: .5em;
+}
+
+nav #classificacao-indicativa{
+    background-color: rgb(216, 139, 38);
+    padding: 4px 5px 4px 4px;
+    border-radius: 2.5px;
+}
+
+.conteudo-popup p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.conteudo-popup .lista-episodios{
+    margin-top: 48px;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.conteudo-popup .lista-episodios span:first-of-type{
+    margin-right: 65%;
+    color: #fff;
+}
+
+.lista-episodios button{
+    padding: 0.5em 1em;
+    color: white;
+    cursor: pointer;
+    border: 0.1em solid rgb(77, 77, 77);
+    border-radius: 0.2em;
+    background-color: rgb(36, 36, 36);
+}
+
+.lista-episodios button i{
+    padding-left: 10px;
+}
+
+.popup-close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 1;
+    background-color:#181818;
+    padding: 11px;
+    border-radius: 50%;
+}
+
+.popup-content img{
+    border-radius: 6px;
+    -webkit-mask-image: linear-gradient(to top, #00000006 25%, #141414 70%); 
+}
+
+.nomeGreys{
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-one{
+    /* margin: -6rem 0 1rem 0; */
+    margin-bottom: 2.5rem;
+}
+
+.popup #botaoPopup{
+    top: 19rem;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+.main-one .fa-plus-circle{
+    color: #fff;
+    margin-left: 1.5rem;
+    font-size: 15px;
+    top: 19.5rem;
+}
+
+.fa-thumbs-up{
+    color: #fff;
+    margin-left: 1.5rem;
+    font-size: 15px;
+    top: 19.4rem;
+}
+
+.fa-thumbs-down{
+    color: #fff;
+    margin-left: 1.5rem;
+    font-size: 15px;
+    top: 19.5rem;
+}
+
+.cards-filmes{
+    border-top: 1px solid #404040;
+    margin-bottom: 5px;
+}
+
+.cards-filmes .secao-filme{
+    border-bottom: 1px solid #404040;
+    padding: 1em;
+}
+
+.cards-filmes iframe{
+    margin-left: 1.2rem;
+}
+
+.teste{
+    position: absolute;
+    font-size: 1.5em;
+    color: #d2d2d2;
+    margin-top: 2.1rem;
+    margin-right: 5rem;
+}
+
+.info-cards{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+    position: absolute;
+    margin-left: 12.5rem;
+}
+
+
+
+
